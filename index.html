@@ -4,7 +4,7 @@
                                 <link rel="stylesheet" href="../static/css/custom.css">
                                 <script src="https://use.fontawesome.com/7dc0dd12e3.js"></script>
                 </head>
-                <body ng-app="chasebidApp" ng-controller="chasebidCtrl" style="">
+                <body ng-app="chasebidApp" ng-controller="chasebidCtrl">
                         <div class="top-container">
                                 <div class="top-row" style="padding-top:30px;height:120px;">
                                         <div class="col-md-8" >
@@ -48,8 +48,26 @@
                                              </div>
                                         </div>
                                         <div class="col-sm-3">
+                                                <div class="row">
+                                                        <div class="col-xs-1">
+                                                                <div class="dropdown" >
+                                                                        <button style="padding:10px;float:left;width:200px;background-color:#ef3d2c;border-color:#ef3d2c;color:white;border-radius:0px;height:40px;font-size:20px;" class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">CATAGORIES
+                                                                        <span style="margin-left:25px;"class="glyphicon glyphicon-align-justify"></span></button>
+                                                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Electronics</a></li>
+                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Experience</a></li>
+                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Git Cords</a></li>
+                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Jewellery &  Watches</a></li>
+                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Other</a></li>
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                        <div class="col-xs-2">
+                                                        </div>
+                                                </div>
                                         </div>
                                 </div>
+                                <hr style="border: 3px solid #ef3d2c;margin-top:-10px;">
                         </div>
                         <ui-view></ui-view>
 
