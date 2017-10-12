@@ -4,25 +4,25 @@
                                 <link rel="stylesheet" href="../static/css/custom.css">
                                 <script src="https://use.fontawesome.com/7dc0dd12e3.js"></script>
                 </head>
-                <body ng-app="chasebidApp" ng-controller="chasebidCtrl">
-                        <div class="top-container-fluid">
-                                <div class="top-row" style="padding-top:30px;height:120px;background-color:#f7f7f7;">
+                <body ng-app="chasebidApp" ng-controller="chasebidCtrl" style="">
+                        <div class="top-container">
+                                <div class="top-row" style="padding-top:30px;height:120px;">
                                         <div class="col-md-8" >
                                                 <div class="row">
-                                                                <div class="col-md-1"></div>
-                                                                <div class="col-md-5">
-                                                                        <img src="static/image/Website_Logo_245x47_on_Box.png" alt="logo" style="border:0px;width:350px;">
-                                                                </div>
-                                                                <div class="col-md-6"></div>
+                                                        <div class="col-md-1"></div>
+                                                        <div class="col-md-5">
+                                                                <img src="static/image/Website_Logo_245x47_on_Box.png" alt="logo" style="border:0px;width:350px;">
+                                                        </div>
+                                                        <div class="col-md-6"></div>
                                                 </div>
                                         </div>
                                         <div class="col-md-4">
                                                 <div class="row">
                                                         <div class="col-md-3"></div>
                                                         <div class="col-md-9">
-                                                                <div class="top-right-header" style="">
+                                                                <div class="top-right-header">
                                                                 <ul>
-                                                                        <li><a style="font-size:30px;" id="l01" ui-sref="Owner_Reg"><i class="fa fa-user-plus aria-hidden=true "></i></a></li>
+                                                                        <li><a style="font-size:30px;" id="l01" ui-sref="signUp"><i class="fa fa-user-plus aria-hidden=true "></i></a></li>
                                                                         <li>Sign in</li>
                                                                         <li><a style="font-size:20px;" id="l02" href="#"><i class="fa fa-user aria-hidden=true "></i></a></li>
                                                                         <li>Sign Up</li>
@@ -33,49 +33,33 @@
                                         </div>
                                 </div>
 
-                        </div>
-
-                        <div class="row" style="padding-left:3%;padding-top:10px;background-color:#021c2c;">
-                                <div class="col-sm-9">
-                                    <div class="menu-navbar">
-                                        <ul>
-                                                <li><a href="#">HOME</a></li>
-                                                <li><a href="#">LIVE AUCTIONS</a></li>
-                                                <li><a href="#">MAKE YOUR WISH</a></li>
-                                                <li><a href="#">HOW ITS WORK</a></li>
-                                                <li><a href="#">PURCHASE BID CREDITS</a></li>
-                                                <li><a href="#">TV-SHOW</a></li>
-                                                <li><a href="#">CONTACT-US</a></li>
-                                        </ul>
-                                   </div>
+                                <div class="row" style="padding-left:3%;padding-top:10px;background-color:#021c2c;margin:0px;">
+                                        <div class="col-sm-9">
+                                            <div class="menu-navbar">
+                                                <ul>
+                                                        <li><a href="#">HOME</a></li>
+                                                        <li><a href="#">LIVE AUCTIONS</a></li>
+                                                        <li><a href="#">MAKE YOUR WISH</a></li>
+                                                        <li><a href="#">HOW ITS WORK</a></li>
+                                                        <li><a href="#">PURCHASE BID CREDITS</a></li>
+                                                        <li><a href="#">TV-SHOW</a></li>
+                                                        <li><a href="#">CONTACT-US</a></li>
+                                                </ul>
+                                             </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                        </div>
                                 </div>
-                                <div class="col-sm-3">
-                                </div>
                         </div>
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-
-                        <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-
-                                  <!-- Modal content-->
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                      <h4 class="modal-title">Modal Header</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                      <p>Some text in the modal.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    </div>
-                                  </div>
-
                         <ui-view></ui-view>
 
                         <script src="../static/bower_components/jquery/dist/jquery.min.js"></script>
                         <script src="../static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
                         <script src="../static/bower_components/angular/angular.min.js"></script>
                         <script src="../static/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+                        <script src="../static/js/App.js"></script>
+                        <script src="../static/js/ChasebidCtrl.js"></script>
+                        <script src="../static/js/signupCtrl.js"></script>
+
                 </body>
 </html>
