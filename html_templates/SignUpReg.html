@@ -1,13 +1,13 @@
 <div class="container-fluid" style="margin:0px 6%;">
     <div class="signUpTitle" >
         <ul>
-            <li style="margin-top:50px;list-style:none;font-size:20px;"><a style="background-color:#021c2c;color:white;padding:15px;" href="#">JOIN US TODAY</a></li>
+            <li style="margin-top:50px;margin-left:-40px;margin-bottom:-10px;list-style:none;font-size:20px;"><a style="background-color:#021c2c;color:white;padding:15px;" href="#">JOIN US TODAY</a></li>
         </ul>
         <hr style="border-bottom: 2px solid #ef3d2c;">
     </div>
 
 
-    <div class="card">
+    <div class="card-content">
         <div class="card-body">
             <div class="row">
                 <div class="col-md-8">
@@ -20,28 +20,28 @@
                         <div class="row">
                             <div class="col-md-6">
                                     <div class='form-group-signup'>
-                                            <label for="First Name">First Name</label>
-                                            <input type="text"  class="form-control">
+                                            <label for="FirstName">First Name</label>
+                                            <input type="text" ng-model="SignUp_data.FirstName"  class="form-control">
                                     </div>
                             </div>
                             <div class="col-md-6">
                                     <div class='form-group-signup'>
-                                            <label for="Last Name">Last Name</label>
-                                            <input type="text"  class="form-control">
+                                            <label for="LastName">Last Name</label>
+                                            <input type="text"  class="form-control" ng-model="SignUp_data.LastName">
                                     </div>
                             </div>
                         </div>
                         <div class="row">
                                 <div class="col-md-6">
                                         <div class='form-group-signup'>
-                                                <label for="User Name">User Name</label>
-                                                <input type="text"  class="form-control">
+                                                <label for="UserName">User Name</label>
+                                                <input type="text"  class="form-control" ng-model="SignUp_data.UserName">
                                         </div>
                                 </div>
                                 <div class="col-md-6">
                                         <div class='form-group-signup'>
                                                 <label for="Email">Email</label>
-                                                <input type="email"  class="form-control">
+                                                <input type="email"  class="form-control" ng-model="SignUp_data.Email">
                                         </div>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                                     <div class="col-md-6">
                                             <div class='form-group-signup'>
                                                     <label for="Password">Password</label>
-                                                    <input type="password"  class="form-control">
+                                                    <input type="password"  class="form-control" ng-model="SignUp_data.Password">
                                             </div>
                                     </div>
                                     <div class="col-md-6">
@@ -109,7 +109,7 @@
                                             <div class="col-md-6">
                                                     <div class='form-group-signup'>
                                                             <label for="City">City</label>
-                                                            <input type="text"  class="form-control">
+                                                            <input type="text"  class="form-control" ng-model="SignUp_data.City">
                                                     </div>
                                             </div>
                                             <div class="col-md-6">
@@ -153,11 +153,11 @@
                                                         <div class='form-group-signup'>
                                                             <div class="row">
                                                                     <div class="col-xs-9">
-                                                                            <label for="Mobile Number">Mobile Number</label>
-                                                                            <input type="number"  class="form-control">
+                                                                            <label for="MobileNumber">Mobile Number</label>
+                                                                            <input type="number"  class="form-control" ng-model="SignUp_data.MobileNumber">
                                                                     </div>
                                                                     <div class="col-xs-3">
-                                                                            <input style="margin-top:69px;"; type="button" class="btn btn-info" value="Verify">
+                                                                            <input style="margin-top:69px;" type="button" class="btn btn-info" value="Verify">
                                                                         </div>
                                                             </div>
                                                         </div>
@@ -170,19 +170,17 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-md-8">
+                                                <div class="col-md-12">
                                                         <div class='form-group-signup'>
                                                             <label class="checkbox-inline ">
-                                                            <input type="checkbox" value="">I confirm that I am above 18 years of age and agree to the terms & conditions of ChaseBid.Com.</label>
+                                                            <input type="checkbox" style="margin-top:-7;width:15px;border-radius:0px;">       I confirm that I am above 18 years of age and agree to the terms & conditions of ChaseBid.Com.</label>
                                                         </div>
-                                                </div>
-                                                <div class="col-md-4">
                                                 </div>
                                             </div>
                                             <div class="row">
                                                     <div class="col-md-8">
                                                         <div class="main-button">
-                                                            <input type="button" value="SIGN UP" style="border-radius:0px;background-color:#021c2c;color:white;float:left;padding: 2px 30px;
+                                                            <input type="button" value="SIGN UP" ng-click="saveSignUpData()" style="border-radius:0px;background-color:#021c2c;color:white;float:left;padding: 2px 30px;
                                                             font-size: 20px;">
                                                         </div>
                                                     </div>
@@ -190,7 +188,7 @@
                     </form>
                 </div>
                 <div class="col-md-4">
-                    <h2>Signup using SOCIAL MEDIA</h2>
+                    <h2><b>Signup using SOCIAL MEDIA</b></h2>
                     <div  class="right-side-card" style="background-color:#f7f7f7;margin-top:20%;">
                             <div class="card-block" style="padding:30px;color:white;">
                                     <a style=" text-shadow: 0 1px 0 rgba(242,242,242,.7);font-size:20px;margin-top:20px;float:center;height:40px;" href="https://api.twitter.com/oauth/authenticate?oauth_token=RVvp_AAAAAAA15W9AAABXxAuKqc" class="btn btn-info btn-block text-left"><i style="float:left;font-size:20px;" class="fa fa-twitter"></i>TWITTER</a>

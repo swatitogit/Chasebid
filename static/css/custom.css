@@ -1,5 +1,5 @@
 body {
-    background-color:#f7f7f7;
+    background-color:#F4F4F4;
     line-height: 1.42857143;
 }
 
@@ -19,7 +19,12 @@ body {
 }
 
 #l01:hover , #l02:hover , .menu-navbar a:hover {
-    color: red;
+    color: #ac2925;
+    text-decoration: none;
+
+}
+
+.menu-navbar a:active{
     text-decoration: none;
 }
 
@@ -31,7 +36,7 @@ body {
     margin-left: 10px;
 }
 
-.card {
+.card-content {
     margin-top:50px;
 }
 
@@ -41,13 +46,15 @@ body {
     padding: 25px;
     font-family: yanone;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .card-body:hover{
     box-shadow: 0 5px 7px 1px rgba(0,0,0,.3);
+
 }
 
-.form-control:focus{border-color:red; box-shadow: none; }
+.form-control:focus{border-color:#ac2925 box-shadow: none; }
 
 .form-group-signup input , .form-group-signup select{
     border-radius: 0px;
@@ -57,9 +64,36 @@ body {
 .main-button input:hover{
     color: #fff;
     border-color: #ac2925;
+    background-color:#ac2925;
 }
 
 .form-group-signup input, .form-group-signup select , .form-group-signup label, .main-button input{
     margin-top:20px;
 }
+
+.bottom-container h3:hover , .bottom-container p:hover {
+    color: #ac2925;
+}
+
+.signIn-card{
+    margin-top:20px;
+}
+.signIn-body {
+    background-color: white;
+    border-color: 1px solid whitesmoke;
+    padding: 40px;
+    font-family: yanone;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+.form-group-signIn input, .form-group-signIn label ,.signin-main-button input , .form-group-signIn a,p{
+    margin-top:20px;
+}
+
+.signIn-body:hover {
+    box-shadow: 0 5px 7px 1px rgba(0,0,0,.3);
+}
+
 
