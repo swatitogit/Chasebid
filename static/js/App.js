@@ -11,6 +11,11 @@ angular.module('chasebidApp', ['chasebidApp.controllers','ui.router'])
 		templateUrl:'../html_templates/home_page.html',
 		// controller:'signupCtrl'
 	})
+	.state('bidnow', {
+		url: '/bidnow',
+		templateUrl:'../html_templates/bidnow.html',
+		// controller:'bidnowCtrl'
+	})
 
 	$urlRouterProvider.otherwise('/');
 }); //config ends
