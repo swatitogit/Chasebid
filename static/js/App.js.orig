@@ -12,9 +12,9 @@ angular.module('chasebidApp', ['chasebidApp.controllers','ui.router'])
 		controller:'signInCtrl'
 	})
 
-	.state('UserProfile', {
-		url: '/UserProfile',
-		templateUrl:'../html_templates/UserProfile.html',
+	.state('signInDashboard', {
+		url: '/signInDashboard',
+		templateUrl:'../html_templates/SignInDashboard.html',
 		// controller:'signInCtrl'
 	})
 
@@ -23,15 +23,17 @@ angular.module('chasebidApp', ['chasebidApp.controllers','ui.router'])
 		templateUrl:'../html_templates/home_page.html',
 		// controller:'signupCtrl'
 	})
+<<<<<<< HEAD
+	.state('bidnow', {
+		url: '/bidnow',
+		templateUrl:'../html_templates/bidnow.html',
+		// controller:'bidnowCtrl'
+=======
 	.state('Indexhome', {
 		url: '/Indexhome',
 		templateUrl:'../html_templates/home_page.html',
 		// controller:'signupCtrl'
-	})
-	.state('bidnow', {
-		url: '/bidnow',
-		templateUrl:'../html_templates/bidnow.html',
-		controller:'homeCtrl'
+>>>>>>> 8c6f4c347ef1d9c73aa0ffaca5397fa9642dd44e
 	})
 
 	$urlRouterProvider.otherwise('/Indexhome');
