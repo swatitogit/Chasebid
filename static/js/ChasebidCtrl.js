@@ -23,8 +23,10 @@ $scope.SignIn_Data= {
     Password: null,
 };
     $scope.saveSignInData = function(){
-        $state.go("signInDashboard");
+        $state.go("UserProfile");
         console.log('SignIn',$scope.SignIn_Data)
     }
 
 });
+
+

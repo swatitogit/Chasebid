@@ -3,10 +3,22 @@ body {
     line-height: 1.42857143;
 }
 
-.top-right-header li, .menu-navbar li{
+.top-right-header li, .menu-navbar li {
     list-style: none;
     display: inline;
     margin:5px;
+}
+
+.editProfile-navbar li  {
+    list-style: none;
+    display: inline;
+    margin:5px;
+}
+
+.editProfile-navbar i {
+    font-size:30px;
+    margin-right:20px;
+    color:white;
 }
 
 
@@ -36,32 +48,47 @@ body {
     margin-left: 10px;
 }
 
-.card-content {
-    margin-top:50px;
+.card-content , .Profile-card {
+
+    margin: 50px;
 }
 
-.card-body {
+.Profile-card  {
+    padding: 30px;
+}
+
+.profile-card-body{
+    background-color: white;
+    border-color: 1px solid whitesmoke;
+    padding: 30px;
+    font-family: yanone;
+    font-size: 18px;
+
+}
+
+
+.card-body  {
     background-color: white;
     border-color: 1px solid whitesmoke;
     padding: 25px;
     font-family: yanone;
     font-size: 18px;
-    margin-bottom: 30px;
+
 }
 
-.card-body:hover{
+.card-body:hover , .profile-card-body:hover{
     box-shadow: 0 5px 7px 1px rgba(0,0,0,.3);
 
 }
 
-.form-control:focus{border-color:#ac2925 box-shadow: none; }
+.form-control:focus{border-color:#ac2925; box-shadow: none; }
 
 .form-group-signup input , .form-group-signup select{
     border-radius: 0px;
     height:40px;
 }
 
-.main-button input:hover{
+.main-button input:hover ,  .profile-button input:hover{
     color: #fff;
     border-color: #ac2925;
     background-color:#ac2925;
@@ -71,12 +98,24 @@ body {
     margin-top:20px;
 }
 
+.form-group-editProgile label , .form-group-editProgile select , .form-group-editProgile input , .profile-button{
+    margin-top: 20px;
+    border-radius: 0px;
+    height:40px;
+}
+
 .bottom-container h3:hover , .bottom-container p:hover {
     color: #ac2925;
 }
 
 .signIn-card{
     margin-top:20px;
+}
+
+.editProfile-navbar > li  {
+    list-style: none;
+    display: inline;
+    color: #ac2925;
 }
 .signIn-body {
     background-color: white;

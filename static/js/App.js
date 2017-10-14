@@ -12,9 +12,9 @@ angular.module('chasebidApp', ['chasebidApp.controllers','ui.router'])
 		controller:'signInCtrl'
 	})
 
-	.state('signInDashboard', {
-		url: '/signInDashboard',
-		templateUrl:'../html_templates/SignInDashboard.html',
+	.state('UserProfile', {
+		url: '/UserProfile',
+		templateUrl:'../html_templates/UserProfile.html',
 		// controller:'signInCtrl'
 	})
 

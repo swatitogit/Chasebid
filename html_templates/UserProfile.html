@@ -1,0 +1,229 @@
+<div class="container-fluid">
+    <div class="Profile-card">
+    <div class="editProfile-navbar"  style="background-color:#021c2c;height:100px;padding:30px;">
+        <ul>
+                <li class="active"><a href="https://www.chasebid.com/en/my-account/user/edit" title="" data-original-title="My Profile"><span class="round-tabs four"><i class="fa fa-user"></i></span> </a></li>
+                <li><a href="https://www.chasebid.com/en/my-account/user/buybids" title="" data-original-title="Purchase Bid Credits"><span class="round-tabs four"><i class="fa fa-credit-card"></i></span> </a></li>
+                <li><a href="https://www.chasebid.com/en/my-account/user/ongoing_auction" title="" data-original-title="Ongoing Auctions"><span class="round-tabs four"><i class="fa fa-download"></i></span> </a></li>
+                <li><a href="https://www.chasebid.com/en/my-account/user/wonauctions" title="" data-original-title="Won Auctions"><span class="round-tabs four"><i class="fa fa-trophy"></i></span> </a></li>
+                <li><a href="https://www.chasebid.com/en/my-account/user/buyauctions" title="" data-original-title="Order Auctions"><span class="round-tabs four"><i class="fa fa-shopping-basket"></i></span> </a></li>
+                <li><a href=" https://www.chasebid.com/en/my-account/user/watchlist" title="" data-original-title="Favorite Auctions"><span class="round-tabs four"><i class="fa fa-heart"></i></span> </a></li>
+                <li><a href="https://www.chasebid.com/en/my-account/user/refer" title="" data-original-title="Refer a firend"><span class="round-tabs four"><i class="fa fa-share-alt"></i></span> </a></li>
+                <li><a href="https://www.chasebid.com/en/my-account/user/bonuspackage" title="" data-original-title="REDEEEM BONUS POINTS"><span class="round-tabs four"><i class="fa fa-gift"></i></span> </a></li>
+                <li><a href="https://www.chasebid.com/en/my-account/user/cancel" title="" data-original-title="Cancel Account"><span class="round-tabs four"><i class="fa fa-user-times"></i></span> </a></li>
+                <li class="pull-right"><a href="https://www.chasebid.com/en/users/logout" title="" data-original-title="Log Out"><span class="round-tabs four"><i class="fa fa-sign-out"></i></span> </a></li>
+        </ul>
+    </div>
+
+
+        <div class="profile-card-body">
+            <div class="row">
+                    <div class="col-md-12">
+                        <h3><b>Personal Details</b></h3>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                                <div class='form-group-editProgile'>
+                                        <label for="FirstName">First Name</label>
+                                        <input type="text" ng-model="SignUp_data.FirstName"  class="form-control">
+                                </div>
+                        </div>
+                        <div class="col-md-6">
+                                <div class='form-group-editProgile'>
+                                        <label for="LastName">Last Name</label>
+                                        <input type="text"  class="form-control" ng-model="SignUp_data.LastName">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-6">
+                                    <div class='form-group-editProgile'>
+                                            <label for="UserName">User Name</label>
+                                            <input type="text"  class="form-control" ng-model="SignUp_data.UserName">
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                    <div class='form-group-editProgile'>
+                                            <label for="Email">Email</label>
+                                            <input type="email"  class="form-control" ng-model="SignUp_data.Email">
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class='form-group-editProgile'>
+                                <label for="Gender">Date of Birth</label>
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <select class="form-control" id="sel2">
+                                                    <option>Day</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                    <option>9</option>
+                                                    <option>10</option>
+                                                    <option>11</option>
+                                                    <option>12</option>
+                                            </select>
+                                    </div>
+                                    <div class="col-xs-4">
+                                            <select class="form-control" id="sel2">
+                                                    <option>Month</option>
+                                            </select>
+                                    </div>
+                                    <div class="col-xs-4">
+                                            <select class="form-control" id="sel2">
+                                                    <option>Year</option>
+                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class='form-group-editProgile'>
+                                <label for="Gender">Gender</label>
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <label class="radio-inline">
+                                                    <input type="radio" name="optradio">Male
+                                            </label>
+                                        </div>
+                                        <div class="col-xs-4">
+                                                <label class="radio-inline">
+                                                        <input type="radio" name="optradio">Female
+                                                </label>
+                                        </div>
+
+                                        <div class="col-xs-4">
+                                                <label class="radio-inline">
+                                                        <input type="radio" name="optradio">Other
+                                                </label>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group-editProgile">
+                                            <label for="MobileNumber">Mobile Number</label>
+                                            <input type="number"  class="form-control" ng-model="SignUp_data.MobileNumber">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-12">
+                        <h3><b>Billing Address</b></h3>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                            <div class="col-md-6">
+                                    <div class='form-group-editProgile'>
+                                            <label for="Address1">Address1</label>
+                                            <input type="text"  class="form-control" ng-model="SignUp_data.Address1">
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                    <div class='form-group-editProgile'>
+                                            <label for="Address2">Address2</label>
+                                            <input type="text"  class="form-control" ng-model="SignUp_data.Address2">
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                                <div class='form-group-editProgile'>
+                                    <label for="sel1">Country</label>
+                                        <select class="form-control" id="sel1">
+                                            <option>India</option>
+                                        </select>
+                                </div>
+                        </div>
+                        <div class="col-md-6">
+                                <div class='form-group-editProgile'>
+                                    <label for="sel2">State</label>
+                                        <select class="form-control" id="sel2">
+                                                <option>Select a state</option>
+                                                <option>Andhra Pradesh</option>
+                                                <option>Arunachal Pradesh</option>
+                                                <option>Assam</option>
+                                                <option>Bihar</option>
+                                                <option>Chandigarh</option>
+                                        </select>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="row">
+                                <div class="col-md-6">
+                                        <div class='form-group-editProgile'>
+                                                <label for="City">City</label>
+                                                <input type="text"  class="form-control" ng-model="SignUp_data.City">
+                                        </div>
+                                </div>
+                                <div class="col-md-6">
+                                        <div class='form-group-editProgile'>
+                                                <label for="PostCode">Post Code</label>
+                                                <input type="text"  class="form-control" ng-model="SignUp_data.PostCode">
+                                        </div>
+                                </div>
+                            </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-12">
+                            <h3><b>Change your Password</b></h3>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                            <div class="row">
+                                    <div class="col-md-6">
+                                            <div class='form-group-editProgile'>
+                                                    <label for="oldPassword">Old Password</label>
+                                                    <input type="Password " ng-model="SignUp_data.oldPassword"  class="form-control">
+                                            </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                            <div class='form-group-editProgile'>
+                                                    <label for="newPassword">New Password</label>
+                                                    <input type="Password "  class="form-control" ng-model="SignUp_data.newPassword">
+                                            </div>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                                <div class="col-md-6">
+                                        <div class='form-group-editProgile'>
+                                                <label for="CnfrmPassword">Confirm New Password</label>
+                                                <input type="Password " ng-model="SignUp_data.CnfrmPassword"  class="form-control">
+                                        </div>
+                                </div>
+                                <div class="col-md-6">
+                                        <div class="profile-button">
+                                                <input type="button" value="UPDATE PROFILE" ng-click="saveSignUpData()" style="border-radius:0px;background-color:#021c2c;color:white;padding: 5px 30px;
+                                                font-size: 20px;margin-top:62px;width:250px;">
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
