@@ -16,8 +16,7 @@ body {
 }
 
 .editProfile-navbar i {
-    font-size:30px;
-    margin-right:20px;
+    margin-right:30px;
     color:white;
 }
 
@@ -30,11 +29,12 @@ body {
     background-color: transparent;
 }
 
-#l01:hover , #l02:hover , .menu-navbar a:hover {
+#l01:hover , #l02:hover , .menu-navbar a:hover ,.top-right-header li > a:hover {
     color: #ac2925;
     text-decoration: none;
-
 }
+
+
 
 .menu-navbar a:active{
     text-decoration: none;
@@ -91,7 +91,7 @@ body {
 .main-button input:hover ,  .profile-button input:hover{
     color: #fff;
     border-color: #ac2925;
-    background-color:#ac2925;
+    background-color: red;
 }
 
 .form-group-signup input, .form-group-signup select , .form-group-signup label, .main-button input{
@@ -108,7 +108,7 @@ body {
     color: #ac2925;
 }
 
-.signIn-card{
+.signIn-card {
     margin-top:20px;
 }
 
@@ -131,8 +131,30 @@ body {
     margin-top:20px;
 }
 
+.form-group-signIn p > a:hover {
+    text-decoration: none;
+}
+
+
 .signIn-body:hover {
     box-shadow: 0 5px 7px 1px rgba(0,0,0,.3);
 }
 
+.ResetPassCard {
+    margin-top:40px;
+    margin-left: 80px;
+}
+
+
+.ResetPassCard-content {
+    background-color: white;
+    border-color: 1px solid whitesmoke;
+    padding: 40px;
+    font-family: yanone;
+    font-size: 20px;
+}
+
+.ResetPassCard-content {
+    box-shadow: 0 5px 7px 1px rgba(0,0,0,.3);
+}
 

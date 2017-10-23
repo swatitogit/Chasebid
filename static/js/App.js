@@ -33,6 +33,12 @@ angular.module('chasebidApp', ['chasebidApp.controllers','ui.router'])
 		templateUrl:'../html_templates/bidnow.html',
 		controller:'homeCtrl'
 	})
+	.state('ForgetPassword', {
+		url: '/ForgetPassword',
+		templateUrl:'../html_templates/ForgetPassword.html',
+		 controller:'ForgetPassCtrl'
+	})
+
 
 	$urlRouterProvider.otherwise('/Indexhome');
 }); //config ends

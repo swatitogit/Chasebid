@@ -27,6 +27,25 @@ $scope.SignIn_Data= {
         console.log('SignIn',$scope.SignIn_Data)
     }
 
+
+$scope.Profle_data= {
+    FirstName: null,
+    LastName: null,
+    UserName: null,
+    Address1:null,
+    Address2:null,
+    City: null,
+    Postcode: null,
+    oldPassword: null,
+    newPassword: null,
+    conformPassword: null,
+    MobileNumber: null,
+    };
+        $scope.saveProfileData = function(){
+            $state.go("UserProfile");
+            console.log('SignIn',$scope.Profle_data)
+        }
+
 });
 
 

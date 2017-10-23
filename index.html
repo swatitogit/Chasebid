@@ -1,131 +1,132 @@
-<html	>
-                <head>
-                                <link rel="stylesheet" href="../static/bower_components/bootstrap/dist/css/bootstrap.min.css">
-                                <link rel="stylesheet" href="../static/css/custom.css">
-                                <link rel="stylesheet" href="../static/css/style.css">
-                                <script src="https://use.fontawesome.com/7dc0dd12e3.js"></script>
-                </head>
-                <body ng-app="chasebidApp" ng-controller="chasebidCtrl">
-                        <div class="top-container">
-                                <div class="top-row" style="padding-top:30px;height:120px;">
-                                        <div class="col-md-8" >
-                                                <div class="row">
-                                                        <div class="col-md-1"></div>
-                                                        <div class="col-md-5">
-                                                                <img src="static/image/Website_Logo_245x47_on_Box.png" alt="logo" style="border:0px;width:350px;">
-                                                        </div>
-                                                        <div class="col-md-6"></div>
-                                                </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                                <div class="row">
-                                                        <div class="col-md-3"></div>
-                                                        <div class="col-md-9">
-                                                                <div class="top-right-header">
-                                                                <ul>
-                                                                        <li><a ui-sref="signUp" style="font-size:30px;" id="l01" ><i class="fa fa-user-plus aria-hidden=true "></i></a></li>
-                                                                        <li>Sign Up</li>
-                                                                        <li><a ui-sref="signIn" style="font-size:20px;" id="l02" href="#"><i class="fa fa-user aria-hidden=true "></i></a></li>
-                                                                        <li>Sign in</li>
-                                                                </ul>
-                                                                </div>
-                                                        </div>
-                                                </div>
-                                        </div>
-                                </div>
-
-                                <div class="second-navbar"  style="padding-left:3%;padding-top:10px;background-color:#021c2c;">
-                                    <div class="row">
-                                        <div class="col-sm-9">
-                                            <div class="menu-navbar">
-                                                <ul>
-                                                        <li><a ui-sref="home">HOME</a></li>
-                                                        <li><a href="#">LIVE AUCTIONS</a></li>
-                                                        <li><a href="#">MAKE YOUR WISH</a></li>
-                                                        <li><a href="#">HOW ITS WORK</a></li>
-                                                        <li><a href="#">PURCHASE BID CREDITS</a></li>
-                                                        <li><a href="#">TV-SHOW</a></li>
-                                                        <li><a href="#">CONTACT-US</a></li>
-                                                </ul>
-                                             </div>
-                                        </div>
-                                        <div class="col-sm-3">
-                                                <div class="row">
-                                                        <div class="col-xs-1">
-                                                                <div class="dropdown" >
-                                                                        <button style="padding:10px;float:left;width:200px;background-color:#ef3d2c;border-color:#ef3d2c;color:white;border-radius:0px;height:40px;font-size:20px;" class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">CATAGORIES
-                                                                        <span style="margin-left:25px;"class="glyphicon glyphicon-align-justify"></span></button>
-                                                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Electronics</a></li>
-                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Experience</a></li>
-                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Git Cords</a></li>
-                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Jewellery &  Watches</a></li>
-                                                                                <li><a style="font-size:20px;padding:10px;"href="#">Other</a></li>
-                                                                        </ul>
-                                                                </div>
-                                                        </div>
-                                                        <div class="col-xs-2">
-                                                        </div>
-                                                </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr style="border: 3px solid #ef3d2c;margin-top:-10px;">
-                        </div>
-                        <ui-view></ui-view>
-                        <div class="footer-content" style="background-color:#132C3A;color:white;">
+<html>
+<head>
+                <link rel="stylesheet" href="../static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+                <link rel="stylesheet" href="../static/css/custom.css">
+                <link rel="stylesheet" href="../static/css/style.css">
+                <script src="https://use.fontawesome.com/7dc0dd12e3.js"></script>
+</head>
+<body ng-app="chasebidApp" ng-controller="chasebidCtrl">
+        <div class="top-container">
+                <div class="top-row" style="padding-top:30px;height:120px;">
+                        <div class="col-md-8" >
                                 <div class="row">
-                                        <div class="col-md-12">
-                                                <div class="row">
-                                                        <div class="col-md-1">
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                                <h3>CHASEBID</h3>
-                                                                        <p>Home</p>
-                                                                        <p>Live Actions</p>
-                                                                        <p>Make Your Wish</p>
-                                                                        <p>Closed Actions</p>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                                <h3>LEGAL</h3>
-                                                                        <p>Privacy Policy</p>
-                                                                        <p>Terms and Conditions</p>
-                                                        </div>
-                                                        <div class="col-md-2">
-                                                                <h3>INFORMATION</h3>
-                                                                        <p>About Us</p>
-                                                                        <p>Contact Us</p>
-                                                                        <p>Faq</p>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                                <h3>ALSO FIND US ON</h3>
-                                                                <ul></ul>
-                                                        </div>
-                                                        <div class="col-md-2"></div>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                        <div class="footer" style="background-color:#021c2c;color:white;text-align:center;font-size:14px;padding:20px 0 0 10px;">
-                                <div class="row">
-                                        <div class="col-md-3"></div>
-                                        <div class="col-md-6">
-                                                <p>Complete bidding process validated by www.viaancybersercurity.com 100% safe & legitimate.</p>
-                                                <p><i class="fa fa-copyright"></i> CopyRight 2017. All Rights Reserved <span style="color:#ef3d2c;">CHASEBID</span></p>
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-5">
+                                                <img src="static/image/Website_Logo_245x47_on_Box.png" alt="logo" style="border:0px;width:350px;">
                                         </div>
                                         <div class="col-md-6"></div>
                                 </div>
                         </div>
+                        <div class="col-md-4">
+                                <div class="row">
+                                        <div class="col-md-3"></div>
+                                        <div class="col-md-9">
+                                                <div class="top-right-header">
+                                                <ul>
+                                                        <li><a ui-sref="#" style="font-size:30px;" id="l01" ><i class="fa fa-user-plus aria-hidden=true "></i></a></li>
+                                                        <li><a ui-sref="signUp">Sign Up</a></li>
+                                                        <li><a ui-sref="#" style="font-size:20px;" id="l02" href="#"><i class="fa fa-user aria-hidden=true "></i></a></li>
+                                                        <li><a ui-sref="signIn">Sign in</a></li>
+                                                </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="second-navbar"  style="border-bottom:5px solid #ef3d2c;padding-left:3%;padding-top:10px;background-color:#021c2c;">
+                        <div class="row">
+                        <div class="col-sm-9">
+                                <div class="menu-navbar">
+                                <ul>
+                                        <li><a ui-sref="home">HOME</a></li>
+                                        <li><a href="#">LIVE AUCTIONS</a></li>
+                                        <li><a href="#">MAKE YOUR WISH</a></li>
+                                        <li><a href="#">HOW ITS WORK</a></li>
+                                        <li><a href="#">PURCHASE BID CREDITS</a></li>
+                                        <li><a href="#">TV-SHOW</a></li>
+                                        <li><a href="#">CONTACT-US</a></li>
+                                </ul>
+                                </div>
+                        </div>
+                        <div class="col-sm-3">
+                                <div class="row">
+                                        <div class="col-xs-1">
+                                                <div class="dropdown" >
+                                                        <button style="padding:10px;float:left;width:200px;background-color:#ef3d2c;border-color:#ef3d2c;color:white;border-radius:0px;height:40px;font-size:20px;" class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">CATAGORIES
+                                                        <span style="margin-left:25px;"class="glyphicon glyphicon-align-justify"></span></button>
+                                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                                                <li><a style="font-size:20px;padding:10px;"href="#">Electronics</a></li>
+                                                                <li><a style="font-size:20px;padding:10px;"href="#">Experience</a></li>
+                                                                <li><a style="font-size:20px;padding:10px;"href="#">Git Cords</a></li>
+                                                                <li><a style="font-size:20px;padding:10px;"href="#">Jewellery &  Watches</a></li>
+                                                                <li><a style="font-size:20px;padding:10px;"href="#">Other</a></li>
+                                                        </ul>
+                                                </div>
+                                        </div>
+                                        <div class="col-xs-2">
+                                        </div>
+                                </div>
+                        </div>
+                        </div>
+                </div>
+        </div>
+        <ui-view></ui-view>
+        <div class="footer-content" style="background-color:#132C3A;color:white;margin-top:30px;">
+                <div class="row">
+                        <div class="col-md-12">
+                                <div class="row">
+                                        <div class="col-md-1">
+                                        </div>
+                                        <div class="col-md-2">
+                                                <h3>CHASEBID</h3>
+                                                        <p>Home</p>
+                                                        <p>Live Actions</p>
+                                                        <p>Make Your Wish</p>
+                                                        <p>Closed Actions</p>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <h3>LEGAL</h3>
+                                                        <p>Privacy Policy</p>
+                                                        <p>Terms and Conditions</p>
+                                        </div>
+                                        <div class="col-md-2">
+                                                <h3>INFORMATION</h3>
+                                                        <p>About Us</p>
+                                                        <p>Contact Us</p>
+                                                        <p>Faq</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                                <h3>ALSO FIND US ON</h3>
+                                                <ul></ul>
+                                        </div>
+                                        <div class="col-md-2"></div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div class="footer" style="background-color:#021c2c;color:white;text-align:center;font-size:14px;padding:20px 0 0 10px;">
+                <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                                <p>Complete bidding process validated by www.viaancybersercurity.com 100% safe & legitimate.</p>
+                                <p><i class="fa fa-copyright"></i> CopyRight 2017. All Rights Reserved <span style="color:#ef3d2c;">CHASEBID</span></p>
+                        </div>
+                        <div class="col-md-6"></div>
+                </div>
+        </div>
 
 
-                        <script src="../static/bower_components/jquery/dist/jquery.min.js"></script>
-                        <script src="../static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-                        <script src="../static/bower_components/angular/angular.min.js"></script>
-                        <script src="../static/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-                        <script src="../static/js/App.js"></script>
-                        <script src="../static/js/ChasebidCtrl.js"></script>
-                        <script src="../static/js/signupCtrl.js"></script>
-                        <script src="../static/js/signInCtrl.js"></script>
+        <script src="../static/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../static/bower_components/angular/angular.min.js"></script>
+        <script src="../static/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="../static/js/App.js"></script>
+        <script src="../static/js/ChasebidCtrl.js"></script>
+        <script src="../static/js/signupCtrl.js"></script>
+        <script src="../static/js/signInCtrl.js"></script>
+        <script src="../static/js/ProfileCtrl.js"></script>
+        <script src="../static/js/ForgetPassCtrl.js"></script>
 
-                </body>
+</body>
 </html>
